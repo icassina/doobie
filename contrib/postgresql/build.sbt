@@ -21,6 +21,4 @@ initialCommands := """
   import org.postgresql.geometric._
   """
 
-/// PUBLISH SETTINGS
-
-bintrayPublishSettings
+publishTo := Some("BestMile Snapshots " at "http://nexus.int.bestmile.com/content/repositories/snapshots/")  

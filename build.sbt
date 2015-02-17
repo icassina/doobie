@@ -37,6 +37,8 @@ scalacOptions in (Compile, doc) ++= Seq(
   "-skip-packages", "scalaz"
 )
 
+publishTo := Some("BestMile Snapshots " at "http://nexus.int.bestmile.com/content/repositories/snapshots/")
+
 /// SUBMODULES
 
 lazy val core = project.in(file("core"))

@@ -6,6 +6,4 @@ libraryDependencies ++= Seq(
   "com.zaxxer" %  "HikariCP-java6" % "2.2.5"
 )
 
-/// PUBLISH SETTINGS
-
-bintrayPublishSettings
+publishTo := Some("BestMile Snapshots " at "http://nexus.int.bestmile.com/content/repositories/snapshots/")  

@@ -27,3 +27,5 @@ ctut := {
 }
 
 libraryDependencies += "io.argonaut" %% "argonaut" % "6.1-M4"
+
+publishTo := Some("BestMile Snapshots " at "http://nexus.int.bestmile.com/content/repositories/snapshots/")  

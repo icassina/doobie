@@ -31,9 +31,7 @@ scalacOptions ++= Seq(
   "-Yno-predef"
 )
 
-/// PUBLISH SETTINGS
-
-bintrayPublishSettings
+publishTo := Some("BestMile Snapshots " at "http://nexus.int.bestmile.com/content/repositories/snapshots/")  
 
 /// CODE GENERATION SETTINGS
 

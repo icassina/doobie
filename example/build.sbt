@@ -37,3 +37,5 @@ initialCommands := """
   )
   import xa.yolo._
   """
+
+publishTo := Some("BestMile Snapshots " at "http://nexus.int.bestmile.com/content/repositories/snapshots/")  
